@@ -5,6 +5,11 @@ import java.util.Calendar;
 
 public final class Negociacao implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8188902426942015363L;
+	
 	private final double preco;
 	private final int quantidade;
 	private final Calendar data;
